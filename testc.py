@@ -20,7 +20,7 @@ with st.sidebar:
         width=st.slider("长宽比",1.0,1.4)*length
         height=st.slider("高",2.5,5.0)
 
-st.markdown("![Alt Text](https://github.com/madara-2001/streamlit/blob/main/test.gif)")
+st.markdown("![Alt Text](https://i.postimg.cc/NfDC63Vq/test.gif)")
             
 # file_ = open("C:/Users/terry/Downloads/f631910e7bec54e7fc8d5ddcfc389b504ec26a9a.gif", "rb")
 # contents = file_.read()
