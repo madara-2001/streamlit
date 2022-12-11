@@ -1,2 +1,1 @@
-# streamlit
-Yang's lab
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://madara-2001-streamlit-testc-aj4cwn.streamlit.app/)
