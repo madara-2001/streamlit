@@ -20,14 +20,15 @@ with st.sidebar:
         width=st.slider("长宽比",1.0,1.4)*length
         height=st.slider("高",2.5,5.0)
 
+st.markdown("![Alt Text](https://github.com/madara-2001/streamlit/blob/main/test.gif)"
+            
+# file_ = open("C:/Users/terry/Downloads/f631910e7bec54e7fc8d5ddcfc389b504ec26a9a.gif", "rb")
+# contents = file_.read()
+# data_url = base64.b64encode(contents).decode("utf-8")
+# file_.close()
 
-file_ = open("C:/Users/terry/Downloads/f631910e7bec54e7fc8d5ddcfc389b504ec26a9a.gif", "rb")
-contents = file_.read()
-data_url = base64.b64encode(contents).decode("utf-8")
-file_.close()
-
-st.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" alt="gif">',
-    unsafe_allow_html=True,
-)
+# st.markdown(
+#     f'<img src="data:image/gif;base64,{data_url}" alt="gif">',
+#     unsafe_allow_html=True,
+# )
 
